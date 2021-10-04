@@ -4,7 +4,8 @@ Diffeomorphic Multimodal Image Registration using RaPTOR
 This code is based on FLASH which can be downloaded from https://bitbucket.org/FlashC/flashc/src/master/
 
 Please follow the instructions closely in the above link to install DiffeoRaptor as well.
-It contains several functions for image processing and example script file to run the software.
+
+The DiffeoRaptor software package contains several functions for image processing as well as example script files to run the software.
 
 Please cite our paper and FLASH paper in case you used the code in your project:
 
