@@ -1,11 +1,45 @@
 # DiffeoRaptor
 Diffeomorphic Multimodal Image Registration using RaPTOR
 
-This code is based on FLASH which can be downloaded from https://bitbucket.org/FlashC/flashc/src/master/
+This code is based on Fourier-Approximated Lie Algebras (FLASH). FLASH can be downloaded from https://bitbucket.org/FlashC/flashc/src/master/
 
-Please follow the instructions closely in the above link to install DiffeoRaptor as well.
+The instructions to install DiffeoRaptor is similar to the one in the above link. You can find the same steps below:
+
+#Installation for Linux users#
+
+- Step 1:
+  Install Armadillo
+  
+  The version of Armadillo >= 3.920
+  http://arma.sourceforge.net/download.html
+
+- Step 2:
+  Install Pyca
+  Pyca can be downloaded from https://bitbucket.org/scicompanat/pyca. 
+  Follow the steps closely. Pay attention to software requirements and their version.
+  You need specific version of your c++ compiler and other tools to successfully install Pyca.
+  You can switch off the GPU functionality in Pyca since this is not required in our 
+  code. 
+
+
+- Step 2:
+  In your terminal:
+  
+  1) cd DiffeoRaptor
+  
+  2) ccmake .
+  
+     Specify Pyca source code, and Pyca binary path
+
+  3) make 
+
+# Run the program #
 
 The DiffeoRaptor software package contains several functions for image processing as well as example script files to run the software.
+
+1) In the folder DiffeoRaptor/Testing/runO3test you can find two example scripts. For running DiffeoRaptor, use "diffeoraptorO3_IXI.sh". For evaluating the Dice score use "processResults.sh". You need to modify both scripts based on your current directories and preffered parameter settings.
+
+2) The scripts run the cxx files in the parent directory (DiffeoRaptor/Testing). In order, to modify the functionality, you will need to modify those cxx files.
 
 Please cite our paper (currently under review) and FLASH paper in case you used the code in your project:
 
