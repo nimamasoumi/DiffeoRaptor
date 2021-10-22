@@ -1,7 +1,7 @@
 # DiffeoRaptor
 Diffeomorphic Multimodal Image Registration using RaPTOR
 
-![alt text](https://github.com/nimamasoumi/DiffeoRaptor/blob/main/brain.jpg?raw=true)
+![alt text](https://github.com/nimamasoumi/DiffeoRaptor/blob/main/brain.png?raw=true)
 
 This code is based on Fourier-Approximated Lie Algebras (FLASH). FLASH can be downloaded from https://bitbucket.org/FlashC/flashc/src/master/
 
