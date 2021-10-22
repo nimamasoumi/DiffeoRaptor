@@ -25,7 +25,7 @@ The instructions to install DiffeoRaptor is similar to the one in the above link
 
 
 - Step 2:
-  In your terminal:
+  After unzipping the DiffeoRaptor.zip, in your terminal:
   
   1) cd DiffeoRaptor
   
