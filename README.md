@@ -45,7 +45,7 @@ The DiffeoRaptor software package contains several functions for image processin
 
 Please cite our paper (currently under review) and FLASH paper in case you used the code in your project:
 
-[1] N. Masoumi, H. Rivas, M. O. Ahmad, and Y. Xiao, "DiffeoRaptor: Diffeomorphic Inter-modal Image Registration using RaPTOR", Submitted to International Journal of Computer Assisted Radiology and Surgery, 2022
+[1] Masoumi, N., Rivaz, H., Ahmad, M.O. et al. DiffeoRaptor: diffeomorphic inter-modal image registration using RaPTOR. Int J CARS (2022). https://doi.org/10.1007/s11548-022-02749-2
 
 [2] M. Zhang and P. T. Fletcher, “Fast Diffeomorphic Image Registration via Fourier-Approximated Lie Algebras”, In International Journal of Computer Vision 2019, 127, 61–73. https://doi.org/10.1007/s11263-018-1099-x
 
