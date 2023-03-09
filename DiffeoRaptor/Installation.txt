@@ -1,0 +1,26 @@
+=== Installation on Linux ===
+
+* Step 1:
+  This library is partly dependent on other libraries: Pyca and Armadillo
+
+  Pyca can be downloaded from https://bitbucket.org/scicompanat/pyca. You can 
+  switch off the GPU functionality in Pyca since this is not required in our 
+  code. 
+
+  The version of Armadillo >= 3.920
+
+* Step 2:
+  Open a shell (command line), change into the code directory DiffeoRaptor, and
+  type the following commands:
+  
+  1) ccmake .
+  
+     Specify Pyca source code, and Pyca binary path
+
+  2) make 
+
+=== How to run the program ===
+
+* Executable files (e.g.ImageMatchingTest) should be generated if built succesfully.
+
+* Bash scripts are under the source code folder DiffeoRaptor/Testing/run***/ for executing the program.   
