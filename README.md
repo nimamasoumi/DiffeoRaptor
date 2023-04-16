@@ -7,7 +7,7 @@ This code is based on Fourier-Approximated Lie Algebras (FLASH). FLASH can be do
 
 The instructions to install DiffeoRaptor is similar to the one in the above link. You can find the same steps below:
 
-#Installation for Linux users#
+# Installation for Linux users #
 
 - Step 1:
   Install Armadillo
